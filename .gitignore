@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Large datasets (download separately via HuggingFace)
+resources/DuoGesture/BEAT2/
+
+# Preprocessed dataset caches
+resources/DuoGesture/datasets/
+
+# Downloaded pretrained models (download separately via setup.sh)
+resources/DuoGesture/facebook/
+resources/DuoGesture/Systran/
+
+# Generated outputs
+resources/DuoGesture/outputs/
+
+# Misc
+.DS_Store
+*.log
+wandb/
